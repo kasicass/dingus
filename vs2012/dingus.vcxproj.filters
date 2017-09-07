@@ -4,6 +4,9 @@
     <Filter Include="utils">
       <UniqueIdentifier>{57504d12-601c-4631-92c1-3cf061e4cc19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{28fc7c12-700e-456b-bbc9-e8e9b642c1b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -15,5 +18,11 @@
       <Filter>utils</Filter>
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\GlobalSetting.hpp" />
+    <ClInclude Include="..\dingus\dingus\input\InputListener.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\RefCounted.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

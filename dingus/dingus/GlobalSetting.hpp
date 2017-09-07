@@ -22,3 +22,9 @@
 //#include <stdlib.h>
 //#include <stdarg.h>
 
+// smart pointer
+#include <boost/core/noncopyable.hpp>
+#include <boost/intrusive_ptr.hpp>
+
+// utils
+#include "dingus/utils/RefCounted.hpp"
