@@ -11,13 +11,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\GlobalSetting.hpp" />
+    <ClInclude Include="..\dingus\dingus\input\InputContext.hpp" />
+    <ClInclude Include="..\dingus\dingus\input\InputDevice.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputEvent.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputListener.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\RefCounted.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp" />
   </ItemGroup>

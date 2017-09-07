@@ -15,6 +15,9 @@
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp">
       <Filter>input</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\input\InputContext.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -28,6 +31,18 @@
       <Filter>utils</Filter>
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\input\InputEvent.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\input\InputDevice.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\input\InputContext.hpp">
       <Filter>input</Filter>
     </ClInclude>
   </ItemGroup>
