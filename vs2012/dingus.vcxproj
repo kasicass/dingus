@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
+    <ClCompile Include="..\dingus\dingus\math\Vector3.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -21,6 +22,11 @@
     <ClInclude Include="..\dingus\dingus\input\InputDevice.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputEvent.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputListener.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Constants.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\FPU.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Vector2.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Vector3.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Vector4.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\RefCounted.hpp" />

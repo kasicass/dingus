@@ -7,6 +7,9 @@
     <Filter Include="input">
       <UniqueIdentifier>{28fc7c12-700e-456b-bbc9-e8e9b642c1b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{9f39f5a5-3add-4165-9c69-4848dcba86d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -17,6 +20,9 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp">
       <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\math\Vector3.cpp">
+      <Filter>math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +50,21 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\input\InputContext.hpp">
       <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Constants.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Vector2.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\FPU.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Vector3.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Vector4.hpp">
+      <Filter>math</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
