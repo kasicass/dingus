@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dingus\src\dingus_setting.hpp" />
-    <ClInclude Include="..\dingus\src\utils\dingus_string_helper.hpp" />
+    <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\dingus\src\utils\dingus_string_helper.cpp" />
+    <ClInclude Include="..\dingus\dingus\GlobalSetting.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{35B371F5-6770-42F9-B514-C36592F4F0E8}</ProjectGuid>

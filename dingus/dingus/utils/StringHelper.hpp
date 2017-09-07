@@ -1,6 +1,6 @@
 #pragma once
 
-#include "dingus_setting.hpp"
+#include "dingus/GlobalSetting.hpp"
 
 namespace dingus {
 

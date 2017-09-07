@@ -1,4 +1,4 @@
-#include "dingus_string_helper.hpp"
+#include "dingus/utils/StringHelper.hpp"
 
 using namespace dingus;
 
