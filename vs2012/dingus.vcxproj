@@ -24,6 +24,10 @@
     <ClInclude Include="..\dingus\dingus\input\InputListener.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Constants.hpp" />
     <ClInclude Include="..\dingus\dingus\math\FPU.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Line3.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Matrix4x4.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Plane.hpp" />
+    <ClInclude Include="..\dingus\dingus\math\Quaternion.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector2.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector3.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector4.hpp" />

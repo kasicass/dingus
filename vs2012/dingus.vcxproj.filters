@@ -66,5 +66,17 @@
     <ClInclude Include="..\dingus\dingus\math\Vector4.hpp">
       <Filter>math</Filter>
     </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Line3.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Matrix4x4.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Plane.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\math\Quaternion.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
