@@ -22,6 +22,10 @@
 //#include <stdlib.h>
 //#include <stdarg.h>
 
+// D3D
+#include <d3d9.h>
+#include <d3dx9.h>
+
 // smart pointer
 #include <boost/core/noncopyable.hpp>
 #include <boost/intrusive_ptr.hpp>
