@@ -10,6 +10,9 @@
     <Filter Include="math">
       <UniqueIdentifier>{9f39f5a5-3add-4165-9c69-4848dcba86d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{f631a50e-85d6-4b81-9ec9-87c4799e9368}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -23,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\math\Vector3.cpp">
       <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\kernel\ProxyEffect.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\utils\Errors.cpp">
+      <Filter>utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +86,15 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\math\Quaternion.hpp">
       <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\Proxies.hpp">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\ProxyEffect.hpp">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\Errors.hpp">
+      <Filter>utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
