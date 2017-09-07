@@ -2,8 +2,8 @@
 
 #include "dingus/GlobalSetting.hpp"
 
-#define DIRECTINPUT_VERSION 0x0800
-#include <dinput.h>
+// #define DIRECTINPUT_VERSION 0x0800
+// #include <dinput.h>
 
 namespace dingus {
 
