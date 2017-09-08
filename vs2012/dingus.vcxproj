@@ -11,6 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\dingus\dingus\console\Console.cpp" />
+    <ClCompile Include="..\dingus\dingus\console\FileConsoleRenderingContext.cpp" />
+    <ClCompile Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\ProxyEffect.cpp" />
@@ -20,6 +23,9 @@
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\dingus\dingus\console\Console.hpp" />
+    <ClInclude Include="..\dingus\dingus\console\FileConsoleRenderingContext.hpp" />
+    <ClInclude Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.hpp" />
     <ClInclude Include="..\dingus\dingus\GlobalSetting.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputContext.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputDevice.hpp" />
@@ -41,6 +47,7 @@
     <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\RefCounted.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\Singleton.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

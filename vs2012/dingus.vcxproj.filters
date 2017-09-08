@@ -13,6 +13,9 @@
     <Filter Include="kernel">
       <UniqueIdentifier>{f631a50e-85d6-4b81-9ec9-87c4799e9368}</UniqueIdentifier>
     </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{17e7c3fe-b063-4033-b477-6ff5b2ad5ce9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -35,6 +38,15 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\kernel\RenderStats.cpp">
       <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\console\Console.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\console\FileConsoleRenderingContext.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.cpp">
+      <Filter>console</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +113,18 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\kernel\RenderStats.hpp">
       <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\Singleton.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\console\Console.hpp">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\console\FileConsoleRenderingContext.hpp">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.hpp">
+      <Filter>console</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
