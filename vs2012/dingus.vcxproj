@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\console\Console.cpp" />
     <ClCompile Include="..\dingus\dingus\console\FileConsoleRenderingContext.cpp" />
+    <ClCompile Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.cpp" />
     <ClCompile Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
@@ -25,6 +26,7 @@
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\console\Console.hpp" />
     <ClInclude Include="..\dingus\dingus\console\FileConsoleRenderingContext.hpp" />
+    <ClInclude Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.hpp" />
     <ClInclude Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.hpp" />
     <ClInclude Include="..\dingus\dingus\GlobalSetting.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputContext.hpp" />

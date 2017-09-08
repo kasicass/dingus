@@ -48,6 +48,9 @@
     <ClCompile Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.cpp">
       <Filter>console</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -124,6 +127,9 @@
       <Filter>console</Filter>
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.hpp">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.hpp">
       <Filter>console</Filter>
     </ClInclude>
   </ItemGroup>
