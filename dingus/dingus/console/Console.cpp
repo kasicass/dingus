@@ -108,8 +108,12 @@ void CConsoleChannel::write(const std::string& message)
 		time(&clockTime);
 		const tm* t = localtime(&clockTime);
 		char buf[100];
-		sprintf(buf, "%i:%i:%i ", t->tm_hour, t->tm_min, t->tm_sec);
+		sprintf(buf, "[dingus|%i:%i:%i] ", t->tm_hour, t->tm_min, t->tm_sec);
 		mRenderingCtx->write(buf);
+	}
+	else
+	{
+		mRenderingCtx->write("[dingus] ");
 	}
 
 	if (mWritingChannel)
