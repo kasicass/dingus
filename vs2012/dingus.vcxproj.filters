@@ -33,6 +33,9 @@
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp">
       <Filter>utils</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\kernel\RenderStats.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -95,6 +98,9 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\utils\Errors.hpp">
       <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\RenderStats.hpp">
+      <Filter>kernel</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

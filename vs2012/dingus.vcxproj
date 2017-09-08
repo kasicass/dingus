@@ -14,6 +14,7 @@
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\ProxyEffect.cpp" />
+    <ClCompile Include="..\dingus\dingus\kernel\RenderStats.cpp" />
     <ClCompile Include="..\dingus\dingus\math\Vector3.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
@@ -26,6 +27,7 @@
     <ClInclude Include="..\dingus\dingus\input\InputListener.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\Proxies.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\ProxyEffect.hpp" />
+    <ClInclude Include="..\dingus\dingus\kernel\RenderStats.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Constants.hpp" />
     <ClInclude Include="..\dingus\dingus\math\FPU.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Line3.hpp" />
