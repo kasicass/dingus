@@ -17,7 +17,9 @@
     <ClCompile Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
+    <ClCompile Include="..\dingus\dingus\kernel\D3DDevice.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\D3DDeviceCaps.cpp" />
+    <ClCompile Include="..\dingus\dingus\kernel\EffectStateManager.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\ProxyEffect.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\RenderStats.cpp" />
     <ClCompile Include="..\dingus\dingus\math\Vector3.cpp" />
@@ -34,7 +36,9 @@
     <ClInclude Include="..\dingus\dingus\input\InputDevice.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputEvent.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputListener.hpp" />
+    <ClInclude Include="..\dingus\dingus\kernel\D3DDevice.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\D3DDeviceCaps.hpp" />
+    <ClInclude Include="..\dingus\dingus\kernel\EffectStateManager.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\Proxies.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\ProxyEffect.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\RenderStats.hpp" />
@@ -47,6 +51,7 @@
     <ClInclude Include="..\dingus\dingus\math\Vector2.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector3.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector4.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Errors.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp" />

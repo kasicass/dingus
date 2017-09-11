@@ -54,6 +54,12 @@
     <ClCompile Include="..\dingus\dingus\kernel\D3DDeviceCaps.cpp">
       <Filter>kernel</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\kernel\D3DDevice.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\kernel\EffectStateManager.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -137,6 +143,15 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\kernel\D3DDeviceCaps.hpp">
       <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\D3DDevice.hpp">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\EffectStateManager.hpp">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp">
+      <Filter>utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
