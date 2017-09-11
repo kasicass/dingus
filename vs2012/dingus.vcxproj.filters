@@ -16,6 +16,12 @@
     <Filter Include="console">
       <UniqueIdentifier>{17e7c3fe-b063-4033-b477-6ff5b2ad5ce9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{22d6956e-6c10-40b9-b3ab-b5b1e217a809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luasource">
+      <UniqueIdentifier>{502986fc-20c2-436c-9022-5874520acccc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -59,6 +65,117 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\kernel\EffectStateManager.cpp">
       <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\kernel\EffectLoader.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\lua\LuaWrapper.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lapi.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lauxlib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lbaselib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lbitlib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lcode.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lcorolib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lctype.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ldblib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ldebug.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ldo.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ldump.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lfunc.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lgc.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\linit.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\liolib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\llex.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lmathlib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lmem.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\loadlib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lobject.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lopcodes.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\loslib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lparser.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lstate.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lstring.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lstrlib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ltable.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ltablib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\ltm.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lua.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lundump.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lutf8lib.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lvm.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\lua\src\lzio.c">
+      <Filter>luasource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\lua\LuaValue.cpp">
+      <Filter>lua</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +269,93 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp">
       <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\EffectLoader.hpp">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\lua\LuaWrapper.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lapi.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lauxlib.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lcode.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lctype.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\ldebug.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\ldo.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lfunc.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lgc.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\llex.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\llimits.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lmem.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lobject.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lopcodes.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lparser.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lprefix.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lstate.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lstring.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\ltable.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\ltm.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lua.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lua.hpp">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\luaconf.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lualib.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lundump.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lvm.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\lua\src\lzio.h">
+      <Filter>luasource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\lua\LuaValue.hpp">
+      <Filter>lua</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

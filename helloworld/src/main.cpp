@@ -4,6 +4,8 @@
 
 #include "dingus/kernel/D3DDeviceCaps.hpp"
 
+#include "dingus/lua/LuaWrapper.hpp"
+
 using namespace dingus;
 
 int main()
@@ -36,4 +38,13 @@ int main()
 		}
 	}
 	pD3D->Release();
+
+	CLuaWrapper lua("data/");
+	lua.doFile("main.lua", true);
+	
+	CLuaValue v = lua.getGlobal("VarA");
+	printf("VarA = %f\n", v.getNumber());
+
+	v = lua.getGlobal("VarB");
+	printf("VarB = %s\n", v.getString().c_str());
 }
