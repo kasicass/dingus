@@ -51,6 +51,9 @@
     <ClCompile Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.cpp">
       <Filter>console</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\kernel\D3DDeviceCaps.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -131,6 +134,9 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.hpp">
       <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\kernel\D3DDeviceCaps.hpp">
+      <Filter>kernel</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
