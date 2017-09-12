@@ -35,3 +35,6 @@
 #include "dingus/utils/fastvector.hpp"
 #include "dingus/utils/AssertHelper.hpp"
 
+// macros
+#define DINGUS_SAFE_RELEASE(x) if (x) { x->Release(); x = NULL; }
+#define DINGUS_SAFE_DELETE(x)  if (x) { delete x; x = NULL; }

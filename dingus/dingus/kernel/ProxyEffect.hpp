@@ -14,6 +14,7 @@ namespace dingus {
 // The indicators are read from effect technique annotations.
 class CD3DXEffect : public CBaseProxyClass
 {
+public:
 	CD3DXEffect(ID3DXEffect *object = 0);
 
 	int beginFx();            // return Number of passes;
