@@ -6,6 +6,7 @@
 
 #include "dingus/lua/LuaWrapper.hpp"
 #include "dingus/lua/LuaIterator.hpp"
+#include "dingus/lua/LuaHelper.hpp"
 
 using namespace dingus;
 
@@ -57,4 +58,20 @@ int main()
 		if (elem.isNumber()) printf("VarC[%d] = %f\n", arrayC.getKey(), elem.getNumber());
 		else if (elem.isString()) printf("VarC[%d] = %s\n", arrayC.getKey(), elem.getString().c_str());
 	}
+
+	v = lua.getGlobal("VarD");
+	std::string name = CLuaHelper::getString(v, "name");
+	double age = CLuaHelper::getNumber(v, "age");
+	SVector3 vec = CLuaHelper::getVector3(v, "pos");
+	SQuaternion quat = CLuaHelper::getQuaternion(v, "quat");
+	SMatrix4x4 m;
+	CLuaHelper::getMatrix3x3(v, "matrix", m);
+
+	CConsole::CON_ERROR << endl;
+	CConsole::CON_ERROR << "VarD" << endl;
+	CConsole::CON_ERROR << "  name: " << name << endl;
+	CConsole::CON_ERROR << "  age: " << age << endl;
+	CConsole::CON_ERROR << "  pos: " << vec << endl;
+	CConsole::CON_ERROR << "  quat: " << quat << endl;
+	CConsole::CON_ERROR << "  m: " << m << endl;
 }
