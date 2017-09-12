@@ -177,6 +177,9 @@
     <ClCompile Include="..\dingus\dingus\lua\LuaValue.cpp">
       <Filter>lua</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\lua\LuaIterator.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -355,6 +358,9 @@
       <Filter>luasource</Filter>
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\lua\LuaValue.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\lua\LuaIterator.hpp">
       <Filter>lua</Filter>
     </ClInclude>
   </ItemGroup>

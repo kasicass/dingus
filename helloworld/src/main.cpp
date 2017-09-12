@@ -5,6 +5,7 @@
 #include "dingus/kernel/D3DDeviceCaps.hpp"
 
 #include "dingus/lua/LuaWrapper.hpp"
+#include "dingus/lua/LuaIterator.hpp"
 
 using namespace dingus;
 
@@ -47,4 +48,13 @@ int main()
 
 	v = lua.getGlobal("VarB");
 	printf("VarB = %s\n", v.getString().c_str());
+
+	v = lua.getGlobal("VarC");
+	CLuaArrayIterator arrayC(v);
+	while (arrayC.hasNext())
+	{
+		CLuaValue elem = arrayC.next();
+		if (elem.isNumber()) printf("VarC[%d] = %f\n", arrayC.getKey(), elem.getNumber());
+		else if (elem.isString()) printf("VarC[%d] = %s\n", arrayC.getKey(), elem.getString().c_str());
+	}
 }

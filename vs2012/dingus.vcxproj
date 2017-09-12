@@ -23,6 +23,7 @@
     <ClCompile Include="..\dingus\dingus\kernel\EffectStateManager.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\ProxyEffect.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\RenderStats.cpp" />
+    <ClCompile Include="..\dingus\dingus\lua\LuaIterator.cpp" />
     <ClCompile Include="..\dingus\dingus\lua\LuaValue.cpp" />
     <ClCompile Include="..\dingus\dingus\lua\LuaWrapper.cpp" />
     <ClCompile Include="..\dingus\dingus\math\Vector3.cpp" />
@@ -80,6 +81,7 @@
     <ClInclude Include="..\dingus\dingus\kernel\Proxies.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\ProxyEffect.hpp" />
     <ClInclude Include="..\dingus\dingus\kernel\RenderStats.hpp" />
+    <ClInclude Include="..\dingus\dingus\lua\LuaIterator.hpp" />
     <ClInclude Include="..\dingus\dingus\lua\LuaValue.hpp" />
     <ClInclude Include="..\dingus\dingus\lua\LuaWrapper.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Constants.hpp" />
