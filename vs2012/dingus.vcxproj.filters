@@ -369,5 +369,8 @@
     <ClInclude Include="..\dingus\dingus\lua\LuaHelper.hpp">
       <Filter>lua</Filter>
     </ClInclude>
+    <ClInclude Include="..\dingus\dingus\lua\LuaSingleton.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

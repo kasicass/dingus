@@ -4,7 +4,7 @@
 
 #include "dingus/kernel/D3DDeviceCaps.hpp"
 
-#include "dingus/lua/LuaWrapper.hpp"
+#include "dingus/lua/LuaSingleton.hpp"
 #include "dingus/lua/LuaIterator.hpp"
 #include "dingus/lua/LuaHelper.hpp"
 
@@ -41,7 +41,9 @@ int main()
 	}
 	pD3D->Release();
 
-	CLuaWrapper lua("data/");
+	CLuaSingleton::init("data/");
+
+	CLuaSingleton& lua = CLuaSingleton::getInstance();
 	lua.doFile("main.lua", true);
 	
 	CLuaValue v = lua.getGlobal("VarA");

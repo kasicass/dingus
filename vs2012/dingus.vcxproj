@@ -84,6 +84,7 @@
     <ClInclude Include="..\dingus\dingus\kernel\RenderStats.hpp" />
     <ClInclude Include="..\dingus\dingus\lua\LuaHelper.hpp" />
     <ClInclude Include="..\dingus\dingus\lua\LuaIterator.hpp" />
+    <ClInclude Include="..\dingus\dingus\lua\LuaSingleton.hpp" />
     <ClInclude Include="..\dingus\dingus\lua\LuaValue.hpp" />
     <ClInclude Include="..\dingus\dingus\lua\LuaWrapper.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Constants.hpp" />
