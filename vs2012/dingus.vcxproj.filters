@@ -22,6 +22,9 @@
     <Filter Include="luasource">
       <UniqueIdentifier>{502986fc-20c2-436c-9022-5874520acccc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{d370cbe3-a6dd-49d8-abd7-7096dc0630c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -182,6 +185,9 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\lua\LuaHelper.cpp">
       <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp">
+      <Filter>resource</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -371,6 +377,12 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\lua\LuaSingleton.hpp">
       <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\ResourceBundle.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp">
+      <Filter>resource</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
