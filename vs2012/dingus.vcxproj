@@ -15,6 +15,7 @@
     <ClCompile Include="..\dingus\dingus\console\FileConsoleRenderingContext.cpp" />
     <ClCompile Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.cpp" />
     <ClCompile Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.cpp" />
+    <ClCompile Include="..\dingus\dingus\dxutils\D3DEnumeration.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputContext.cpp" />
     <ClCompile Include="..\dingus\dingus\input\InputEvent.cpp" />
     <ClCompile Include="..\dingus\dingus\kernel\D3DDevice.cpp" />
@@ -71,6 +72,7 @@
     <ClInclude Include="..\dingus\dingus\console\FileConsoleRenderingContext.hpp" />
     <ClInclude Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.hpp" />
     <ClInclude Include="..\dingus\dingus\console\WDebugConsoleRenderingContext.hpp" />
+    <ClInclude Include="..\dingus\dingus\dxutils\D3DEnumeration.hpp" />
     <ClInclude Include="..\dingus\dingus\GlobalSetting.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputContext.hpp" />
     <ClInclude Include="..\dingus\dingus\input\InputDevice.hpp" />
@@ -97,6 +99,8 @@
     <ClInclude Include="..\dingus\dingus\math\Vector2.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector3.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector4.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\ReloadableBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp" />
@@ -105,6 +109,7 @@
     <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\RefCounted.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Singleton.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\STLUtils.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp" />
     <ClInclude Include="..\dingus\lua\src\lapi.h" />
     <ClInclude Include="..\dingus\lua\src\lauxlib.h" />

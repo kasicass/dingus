@@ -25,6 +25,12 @@
     <Filter Include="resource">
       <UniqueIdentifier>{d370cbe3-a6dd-49d8-abd7-7096dc0630c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{1c5d05a1-cb1c-4619-a147-8a94905d3698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dxutils">
+      <UniqueIdentifier>{2ac8580f-47c5-4406-ad10-cc5c5f2ea00a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -188,6 +194,9 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp">
       <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\dxutils\D3DEnumeration.cpp">
+      <Filter>dxutils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -383,6 +392,18 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp">
       <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\ReloadableBundle.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\utils\STLUtils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\dxutils\D3DEnumeration.hpp">
+      <Filter>dxutils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

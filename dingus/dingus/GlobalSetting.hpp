@@ -34,6 +34,7 @@
 #include "dingus/utils/RefCounted.hpp"
 #include "dingus/utils/fastvector.hpp"
 #include "dingus/utils/AssertHelper.hpp"
+#include "dingus/utils/STLUtils.hpp"
 
 // macros
 #define DINGUS_SAFE_RELEASE(x) if (x) { x->Release(); x = NULL; }
