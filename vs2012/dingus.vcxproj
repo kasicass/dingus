@@ -68,6 +68,7 @@
     <ClCompile Include="..\dingus\lua\src\lzio.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\dingus\dingus\app\DingusApplication.hpp" />
     <ClInclude Include="..\dingus\dingus\console\Console.hpp" />
     <ClInclude Include="..\dingus\dingus\console\FileConsoleRenderingContext.hpp" />
     <ClInclude Include="..\dingus\dingus\console\W32StdConsoleRenderingContext.hpp" />

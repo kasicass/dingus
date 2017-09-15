@@ -405,5 +405,8 @@
     <ClInclude Include="..\dingus\dingus\dxutils\D3DEnumeration.hpp">
       <Filter>dxutils</Filter>
     </ClInclude>
+    <ClInclude Include="..\dingus\dingus\app\DingusApplication.hpp">
+      <Filter>app</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
