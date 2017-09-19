@@ -483,7 +483,12 @@ private:
 private:
 	const SStateRestored* findRestoredState(int index) const
 	{
-
+		size_t n = mStatesRestored.size();
+		for( size_t i = 0; i < n; ++i ) {
+			if( mStatesRestored[i].index == index )
+				return &mStatesRestored[i];
+		}
+		return NULL;
 	}
 
 private:

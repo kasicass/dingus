@@ -1,0 +1,7 @@
+[dingus] app> creating device resource manager
+[dingus] app> setup resource bundles
+[dingus] app> create d3d resources
+[dingus] app> activate d3d resources
+[dingus] app> setup app contexts
+[dingus] app> initialize app
+[dingus] app> app initialized

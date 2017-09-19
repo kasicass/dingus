@@ -35,6 +35,7 @@ protected:
 
 	HRESULT initialize3DEnvironment();
 	HRESULT reset3DEnvironment();
+	HRESULT render3DEnvironment();
 	void cleanup3DEnvironment();
 
 protected:
@@ -67,7 +68,7 @@ public:
 	virtual HRESULT create(HINSTANCE hInstance);
 	virtual int run();
 	virtual LRESULT msgProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
-	virtual void pause(bool bPause);
+	// virtual void pause(bool bPause);
 	bool isActive() const { return mActive; }
 	void close();
 	void doClose();

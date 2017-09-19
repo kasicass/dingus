@@ -18,6 +18,7 @@ CD3DApplication::CD3DApplication() :
 	mCreationHeight(480),
 	mWindowTitle("D3D9 Application")
 {
+	gD3DApp = this;
 }
 
 CD3DApplication::~CD3DApplication()
@@ -156,6 +157,38 @@ HRESULT CD3DApplication::initialize3DEnvironment()
 
 		cleanup3DEnvironment();
 	}
+
+	return hr;
+}
+
+HRESULT CD3DApplication::render3DEnvironment()
+{
+	HRESULT hr;
+
+	if (mDeviceLost)
+	{
+		if (FAILED(hr = mD3DDevice->TestCooperativeLevel()))
+		{
+			if (D3DERR_DEVICELOST == hr)
+				return S_OK;
+
+			if (D3DERR_DEVICENOTRESET == hr)
+			{
+				// TODO
+			}
+
+			return hr;
+		}
+	}
+
+	if (FAILED(hr = performOneTime()))
+		return hr;
+
+	hr = mD3DDevice->Present(NULL, NULL, NULL, NULL);
+	if (D3DERR_DEVICELOST == hr)
+		mDeviceLost = true;
+
+	return S_OK;
 }
 
 void CD3DApplication::cleanup3DEnvironment()
@@ -209,4 +242,45 @@ HRESULT CD3DApplication::internalPassivateDevice()
 	HRESULT hr = this->passivateDeviceObjects();
 	CD3DDevice::getInstance().passivateDevice();
 	return hr;
+}
+
+int CD3DApplication::run()
+{
+	MSG msg;
+	msg.message = WM_NULL;
+	PeekMessage(&msg, NULL, 0U, 0U, PM_NOREMOVE);
+
+	while (WM_QUIT != msg.message)
+	{
+		BOOL gotMsg = PeekMessage(&msg, NULL, 0U, 0U, PM_REMOVE) != 0;
+		if (gotMsg)
+		{
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
+		}
+		else
+		{
+			if (FAILED(this->render3DEnvironment()))
+			{
+				SendMessage(mHWnd, WM_CLOSE, 0, 0);
+			}
+		}
+	}
+
+	return (INT)msg.wParam;
+}
+
+LRESULT CD3DApplication::msgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )
+{
+	switch (uMsg)
+	{
+	case WM_CLOSE:
+		PostQuitMessage(0);
+		return 0;
+
+	case WM_DESTROY:
+		break;
+	}
+
+	return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
