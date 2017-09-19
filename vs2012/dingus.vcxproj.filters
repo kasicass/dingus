@@ -198,6 +198,12 @@
     <ClCompile Include="..\dingus\dingus\dxutils\D3DEnumeration.cpp">
       <Filter>dxutils</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\dxutils\D3DApplication.cpp">
+      <Filter>dxutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\app\DingusSystem.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -406,6 +412,12 @@
       <Filter>dxutils</Filter>
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\app\DingusApplication.hpp">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\dxutils\D3DApplication.hpp">
+      <Filter>dxutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\app\DingusSystem.hpp">
       <Filter>app</Filter>
     </ClInclude>
   </ItemGroup>

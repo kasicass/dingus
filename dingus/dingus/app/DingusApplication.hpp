@@ -52,7 +52,8 @@ public:
 	virtual bool checkDevice(const CD3DDeviceCaps& caps, CD3DDeviceCaps::eVertexProcessing vproc, CD3DEnumErrors& errors) = 0;
 	// virtual void initD3DSettingsPref(SD3DSettingsPref& pref) {}
 
-	virtual void initialize(IDingusAppContext& appContext) = 0;
+	// virtual void initialize(IDingusAppContext& appContext) = 0;
+	virtual void initialize() = 0;
 	virtual void shutdown() = 0;
 
 	// Constantly polled, if returns true - app ends.
