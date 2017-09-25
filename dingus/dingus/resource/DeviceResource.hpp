@@ -1,6 +1,5 @@
 #pragma once
 
-// #include "dingus/resource/ReloadableBundle.hpp"
 #include "dingus/utils/Singleton.hpp"
 #include "dingus/utils/Notifier.hpp"
 
@@ -17,22 +16,6 @@ public:
 	virtual void passivateResource() = 0;
 	virtual void deleteResource() = 0;
 };
-
-#if 0
-class IDeviceReloadableBundle : public IDeviceResource, public IReloadableBundle
-{
-public:
-	virtual void reload() override
-	{
-		passivateResource();
-		deleteResource();
-		createResource();
-		activateResource();
-	}
-};
-#endif
-
-
 
 class CDeviceResourceManager : public IDeviceResource, public CNotifier<IDeviceResource>, public CSingleton<CDeviceResourceManager>
 {

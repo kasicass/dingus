@@ -32,6 +32,7 @@
     <ClCompile Include="..\dingus\dingus\lua\LuaWrapper.cpp" />
     <ClCompile Include="..\dingus\dingus\math\Vector3.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp" />
+    <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
     <ClCompile Include="..\dingus\lua\src\lapi.c" />
@@ -105,9 +106,10 @@
     <ClInclude Include="..\dingus\dingus\math\Vector3.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector4.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp" />
-    <ClInclude Include="..\dingus\dingus\resource\ReloadableBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\StorageResourceBundle.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\TextureBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Errors.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />

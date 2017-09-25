@@ -204,6 +204,9 @@
     <ClCompile Include="..\dingus\dingus\app\DingusSystem.cpp">
       <Filter>app</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -399,9 +402,6 @@
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp">
       <Filter>resource</Filter>
     </ClInclude>
-    <ClInclude Include="..\dingus\dingus\resource\ReloadableBundle.hpp">
-      <Filter>resource</Filter>
-    </ClInclude>
     <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp">
       <Filter>resource</Filter>
     </ClInclude>
@@ -419,6 +419,12 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\app\DingusSystem.hpp">
       <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\StorageResourceBundle.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\TextureBundle.hpp">
+      <Filter>resource</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

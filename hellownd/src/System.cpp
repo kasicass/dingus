@@ -1,6 +1,8 @@
 #include "System.hpp"
 #include <dingus/console/FileConsoleRenderingContext.hpp>
 
+#include <dingus/resource/TextureBundle.hpp>
+
 SAppStartupParams CSystem::getStartupParams()
 {
 	SAppStartupParams sp;
@@ -22,7 +24,10 @@ IConsoleRenderingContext* CSystem::createStdConsoleCtx(HWND hwnd)
 
 void CSystem::setupBundles(const std::string& dataPath)
 {
+	CTextureBundle::getInstance().addDirectory(dataPath + "tex/");
 
+	CDeviceResourceManager& deviceManager = CDeviceResourceManager::getInstance();
+	deviceManager.addListener(CTextureBundle::getInstance());
 }
 
 void CSystem::setupContexts(HWND hwnd)
@@ -36,4 +41,5 @@ void CSystem::destroyContexts()
 
 void CSystem::destroyBundles()
 {
+	CTextureBundle::finalize();
 }
