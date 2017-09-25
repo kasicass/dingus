@@ -31,6 +31,8 @@
     <ClCompile Include="..\dingus\dingus\lua\LuaValue.cpp" />
     <ClCompile Include="..\dingus\dingus\lua\LuaWrapper.cpp" />
     <ClCompile Include="..\dingus\dingus\math\Vector3.cpp" />
+    <ClCompile Include="..\dingus\dingus\renderer\EffectParams.cpp" />
+    <ClCompile Include="..\dingus\dingus\renderer\EffectParamsNotifier.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp" />
@@ -105,6 +107,8 @@
     <ClInclude Include="..\dingus\dingus\math\Vector2.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector3.hpp" />
     <ClInclude Include="..\dingus\dingus\math\Vector4.hpp" />
+    <ClInclude Include="..\dingus\dingus\renderer\EffectParams.hpp" />
+    <ClInclude Include="..\dingus\dingus\renderer\EffectParamsNotifier.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp" />

@@ -31,6 +31,9 @@
     <Filter Include="dxutils">
       <UniqueIdentifier>{2ac8580f-47c5-4406-ad10-cc5c5f2ea00a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{3999a188-d7e1-423b-b778-9f1644229416}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp">
@@ -206,6 +209,12 @@
     </ClCompile>
     <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp">
       <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\renderer\EffectParamsNotifier.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\renderer\EffectParams.cpp">
+      <Filter>renderer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -425,6 +434,12 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\resource\TextureBundle.hpp">
       <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\renderer\EffectParamsNotifier.hpp">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\renderer\EffectParams.hpp">
+      <Filter>renderer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
