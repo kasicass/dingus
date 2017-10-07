@@ -216,6 +216,15 @@
     <ClCompile Include="..\dingus\dingus\renderer\EffectParams.cpp">
       <Filter>renderer</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\renderer\Renderable.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\renderer\RenderCamera.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dingus\dingus\renderer\RenderContext.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -439,6 +448,15 @@
       <Filter>renderer</Filter>
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\renderer\EffectParams.hpp">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\renderer\Renderable.hpp">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\renderer\RenderCamera.hpp">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\renderer\RenderContext.hpp">
       <Filter>renderer</Filter>
     </ClInclude>
   </ItemGroup>
