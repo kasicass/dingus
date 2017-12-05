@@ -13,3 +13,4 @@ ipch
 *.swp
 *.dll
 *.txt
+*.log

@@ -19,7 +19,7 @@ SAppStartupParams CSystem::getStartupParams()
 
 IConsoleRenderingContext* CSystem::createStdConsoleCtx(HWND hwnd)
 {
-	return new CFileConsoleRenderingContext("dingus_log");
+	return new CFileConsoleRenderingContext("dingus.log");
 }
 
 void CSystem::setupBundles(const std::string& dataPath)
