@@ -34,11 +34,13 @@
     <ClCompile Include="..\dingus\dingus\renderer\EffectParams.cpp" />
     <ClCompile Include="..\dingus\dingus\renderer\EffectParamsNotifier.cpp" />
     <ClCompile Include="..\dingus\dingus\renderer\Renderable.cpp" />
+    <ClCompile Include="..\dingus\dingus\renderer\RenderableBuffer.cpp" />
     <ClCompile Include="..\dingus\dingus\renderer\RenderCamera.cpp" />
     <ClCompile Include="..\dingus\dingus\renderer\RenderContext.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp" />
+    <ClCompile Include="..\dingus\dingus\utils\MemoryPool.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
     <ClCompile Include="..\dingus\lua\src\lapi.c" />
     <ClCompile Include="..\dingus\lua\src\lauxlib.c" />
@@ -113,6 +115,7 @@
     <ClInclude Include="..\dingus\dingus\renderer\EffectParams.hpp" />
     <ClInclude Include="..\dingus\dingus\renderer\EffectParamsNotifier.hpp" />
     <ClInclude Include="..\dingus\dingus\renderer\Renderable.hpp" />
+    <ClInclude Include="..\dingus\dingus\renderer\RenderableBuffer.hpp" />
     <ClInclude Include="..\dingus\dingus\renderer\RenderCamera.hpp" />
     <ClInclude Include="..\dingus\dingus\renderer\RenderContext.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp" />
@@ -123,6 +126,7 @@
     <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Errors.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />
+    <ClInclude Include="..\dingus\dingus\utils\MemoryPool.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Notifier.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\RefCounted.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Singleton.hpp" />
