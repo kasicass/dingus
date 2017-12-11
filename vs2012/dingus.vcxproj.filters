@@ -234,6 +234,9 @@
     <ClCompile Include="..\dingus\dingus\renderer\RenderableQuad.cpp">
       <Filter>renderer</Filter>
     </ClCompile>
+    <ClCompile Include="..\dingus\dingus\resource\EffectBundle.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dingus\dingus\utils\StringHelper.hpp">
@@ -476,6 +479,9 @@
     </ClInclude>
     <ClInclude Include="..\dingus\dingus\renderer\RenderableQuad.hpp">
       <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dingus\dingus\resource\EffectBundle.hpp">
+      <Filter>resource</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

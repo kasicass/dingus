@@ -38,6 +38,7 @@
     <ClCompile Include="..\dingus\dingus\renderer\RenderableQuad.cpp" />
     <ClCompile Include="..\dingus\dingus\renderer\RenderCamera.cpp" />
     <ClCompile Include="..\dingus\dingus\renderer\RenderContext.cpp" />
+    <ClCompile Include="..\dingus\dingus\resource\EffectBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp" />
@@ -121,6 +122,7 @@
     <ClInclude Include="..\dingus\dingus\renderer\RenderCamera.hpp" />
     <ClInclude Include="..\dingus\dingus\renderer\RenderContext.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\DeviceResource.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\EffectBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\StorageResourceBundle.hpp" />
