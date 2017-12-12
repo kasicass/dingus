@@ -40,7 +40,9 @@
     <ClCompile Include="..\dingus\dingus\renderer\RenderContext.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\EffectBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\ResourceBundle.cpp" />
+    <ClCompile Include="..\dingus\dingus\resource\SharedTextureBundle.cpp" />
     <ClCompile Include="..\dingus\dingus\resource\TextureBundle.cpp" />
+    <ClCompile Include="..\dingus\dingus\resource\TextureCreator.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\Errors.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\MemoryPool.cpp" />
     <ClCompile Include="..\dingus\dingus\utils\StringHelper.cpp" />
@@ -125,8 +127,11 @@
     <ClInclude Include="..\dingus\dingus\resource\EffectBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\ResourceId.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\SharedResourceBundle.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\SharedTextureBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\StorageResourceBundle.hpp" />
     <ClInclude Include="..\dingus\dingus\resource\TextureBundle.hpp" />
+    <ClInclude Include="..\dingus\dingus\resource\TextureCreator.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\AssertHelper.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\Errors.hpp" />
     <ClInclude Include="..\dingus\dingus\utils\fastvector.hpp" />
