@@ -45,7 +45,7 @@ public:
 	}
 
 protected:
-	void registerResource(const ResourceId& id, T& resource, RESDATA data)
+	void registerResource(const CResourceId& id, T& resource, RESDATA data)
 	{
 		std::pair<RESDATA, T*> pr(data, &resource);
 		mResourceMap.insert(std::make_pair(id, pr));
